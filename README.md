@@ -12,6 +12,14 @@ available, etc!
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
+## Deploy to Heroku
+```
+$ heroku login
+$ heroku create umaru
+$ git push heroku master
+$ heroku config:set HUBOT_SLACK_TOKEN=@@@@@@@@@@@@@@@
+```
+
 ### Running umaru Locally
 
 You can test your hubot by running the following, however some plugins will not
