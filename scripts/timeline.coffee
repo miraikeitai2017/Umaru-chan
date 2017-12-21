@@ -9,7 +9,7 @@ module.exports = (robot) ->
     id = msg.message.id.replace(".","")
 
     # ユーザ名_channelの部屋だけウォッチ対象
-    else if room.match(/^times_.+/)
+    if room.match(/^times_.+/)
       # 展開可能なURLを作成し、タイムライン表示用の部屋に投稿する
       # roomの指定で、 投稿するchannelを指定
       # 第二引数でslackのパーマネントURLを構築
