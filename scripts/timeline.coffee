@@ -1,3 +1,16 @@
+
+# Description
+#   A Hubot script for times
+#
+# Configuration:
+#   None
+#
+# Commands:
+#  any messages
+#
+# Author:
+#   natmark <natmark0918@gmail.comt>
+
 # 自分のslackのURL
 slack_url = "https://miraikeitai2017.slack.com"
 
